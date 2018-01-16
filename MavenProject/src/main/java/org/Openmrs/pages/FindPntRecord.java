@@ -10,6 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FindPntRecord {
 	WebDriver driver;
+//	*******
+//	Changes for verifying branch
+//	*************
 
 	public FindPntRecord(WebDriver driver) {
 		this.driver = driver;
