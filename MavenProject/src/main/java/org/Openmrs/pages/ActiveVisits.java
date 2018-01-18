@@ -23,7 +23,7 @@ public class ActiveVisits {
 				.click();
 		List<WebElement> names= driver.findElements(By.xpath("//td[2]/a"));
 		if(names.size()!=0) {
-			names.get(1).click();
+			names.get(0).click();
 		
 //		driver.findElement(By.xpath("//a[contains(text(),'pepe')]")).click();
 		//Edit Name
@@ -37,6 +37,7 @@ public class ActiveVisits {
 		
 		//Birth date
 		driver.findElement(By.id("birthdateLabel")).click();
+		driver.findElement(By.name("birthdateDay")).clear();
 		driver.findElement(By.name("birthdateDay")).sendKeys("3");
 		new Select(driver.findElement(By.name("birthdateMonth"))).selectByVisibleText("March");
 	

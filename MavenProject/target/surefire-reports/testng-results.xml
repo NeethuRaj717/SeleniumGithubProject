@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50332" started-at="2018-01-11T02:06:03Z" finished-at="2018-01-11T02:06:53Z">
+  <suite name="Suite" duration-ms="67814" started-at="2018-01-18T15:14:49Z" finished-at="2018-01-18T15:15:56Z">
     <groups>
       <group name="sanity">
         <method signature="ActiveVisitTests.activevisitTc()[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="activevisitTc" class="org.Openmrs.tests.ActiveVisitTests"/>
@@ -10,9 +10,9 @@
         <method signature="LoginTest.logintst()[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="logintst" class="org.Openmrs.tests.LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="50332" started-at="2018-01-11T02:06:03Z" finished-at="2018-01-11T02:06:53Z">
+    <test name="Test" duration-ms="67814" started-at="2018-01-18T15:14:49Z" finished-at="2018-01-18T15:15:56Z">
       <class name="org.Openmrs.tests.LoginTest">
-        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="invokeBrowser" is-config="true" duration-ms="6099" started-at="2018-01-10T21:06:28Z" finished-at="2018-01-10T21:06:35Z">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="invokeBrowser" is-config="true" duration-ms="7020" started-at="2018-01-18T10:15:15Z" finished-at="2018-01-18T10:15:22Z">
           <params>
             <param index="0">
               <value>
@@ -28,17 +28,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="logintst()[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="logintst" duration-ms="1641" started-at="2018-01-10T21:06:35Z" finished-at="2018-01-10T21:06:36Z">
+        <test-method status="PASS" signature="logintst()[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="logintst" duration-ms="1733" started-at="2018-01-18T10:15:22Z" finished-at="2018-01-18T10:15:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintst -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="closeBrowser" is-config="true" duration-ms="2168" started-at="2018-01-10T21:06:36Z" finished-at="2018-01-10T21:06:38Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.Openmrs.tests.LoginTest@53830483]" name="closeBrowser" is-config="true" duration-ms="9760" started-at="2018-01-18T10:15:24Z" finished-at="2018-01-18T10:15:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.Openmrs.tests.LoginTest -->
       <class name="org.Openmrs.tests.FindPatientRecordTest">
-        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.Openmrs.tests.FindPatientRecordTest@2af46afd]" name="invokeBrowser" is-config="true" duration-ms="7122" started-at="2018-01-10T21:06:38Z" finished-at="2018-01-10T21:06:46Z">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.Openmrs.tests.FindPatientRecordTest@2af46afd]" name="invokeBrowser" is-config="true" duration-ms="7266" started-at="2018-01-18T10:15:34Z" finished-at="2018-01-18T10:15:41Z">
           <params>
             <param index="0">
               <value>
@@ -54,17 +54,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="findrecord()[pri:0, instance:org.Openmrs.tests.FindPatientRecordTest@2af46afd]" name="findrecord" duration-ms="5423" started-at="2018-01-10T21:06:46Z" finished-at="2018-01-10T21:06:51Z">
+        <test-method status="PASS" signature="findrecord()[pri:0, instance:org.Openmrs.tests.FindPatientRecordTest@2af46afd]" name="findrecord" duration-ms="5289" started-at="2018-01-18T10:15:41Z" finished-at="2018-01-18T10:15:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findrecord -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.Openmrs.tests.FindPatientRecordTest@2af46afd]" name="closeBrowser" is-config="true" duration-ms="2071" started-at="2018-01-10T21:06:51Z" finished-at="2018-01-10T21:06:53Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.Openmrs.tests.FindPatientRecordTest@2af46afd]" name="closeBrowser" is-config="true" duration-ms="9865" started-at="2018-01-18T10:15:47Z" finished-at="2018-01-18T10:15:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- org.Openmrs.tests.FindPatientRecordTest -->
       <class name="org.Openmrs.tests.ActiveVisitTests">
-        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="invokeBrowser" is-config="true" duration-ms="9621" started-at="2018-01-10T21:06:03Z" finished-at="2018-01-10T21:06:12Z">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="invokeBrowser" is-config="true" duration-ms="8855" started-at="2018-01-18T10:14:49Z" finished-at="2018-01-18T10:14:57Z">
           <params>
             <param index="0">
               <value>
@@ -80,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="activevisitTc()[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="activevisitTc" duration-ms="9916" started-at="2018-01-10T21:06:12Z" finished-at="2018-01-10T21:06:22Z">
+        <test-method status="PASS" signature="activevisitTc()[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="activevisitTc" duration-ms="8583" started-at="2018-01-18T10:14:57Z" finished-at="2018-01-18T10:15:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- activevisitTc -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="closeBrowser" is-config="true" duration-ms="6258" started-at="2018-01-10T21:06:22Z" finished-at="2018-01-10T21:06:28Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.Openmrs.tests.ActiveVisitTests@3a08078c]" name="closeBrowser" is-config="true" duration-ms="9428" started-at="2018-01-18T10:15:06Z" finished-at="2018-01-18T10:15:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
